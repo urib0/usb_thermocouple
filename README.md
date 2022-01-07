@@ -1,0 +1,2 @@
+# usb_thermocouple
+Mac, LinuxマシンにUSBで接続できて追加ドライバ不要で値を読める熱電対センサ
