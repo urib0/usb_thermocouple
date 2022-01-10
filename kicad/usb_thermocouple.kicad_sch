@@ -487,7 +487,7 @@
   (symbol (lib_id "KICAD_MYLIB:ADA_MAX31855") (at 17.78 74.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0915160e-514e-4927-a996-9bf411d8fb26)
-    (property "Reference" "U1" (id 0) (at 19.05 50.8 0))
+    (property "Reference" "U2" (id 0) (at 19.05 50.8 0))
     (property "Value" "ADA_MAX31855" (id 1) (at 20.32 76.2 0))
     (property "Footprint" "KICAD_MYLIB:ADA_MAX31855" (id 2) (at 13.97 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -524,7 +524,7 @@
   (symbol (lib_id "XIAO:SeeeduinoXIAO") (at 77.47 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 86e9f412-5543-43e1-bba0-b970b0e0f286)
-    (property "Reference" "U3" (id 0) (at 82.0294 87.63 0)
+    (property "Reference" "U1" (id 0) (at 82.0294 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SeeeduinoXIAO" (id 1) (at 82.0294 90.17 0)
@@ -601,7 +601,7 @@
   (symbol (lib_id "KICAD_MYLIB:PinHeader_XIAO") (at 48.26 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid efff797f-80ba-43d4-82d8-1094df15cadd)
-    (property "Reference" "U2" (id 0) (at 46.99 45.72 0))
+    (property "Reference" "U3" (id 0) (at 46.99 45.72 0))
     (property "Value" "PinHeader_XIAO" (id 1) (at 46.99 48.26 0))
     (property "Footprint" "KICAD_MYLIB:PinHeader_XIAO" (id 2) (at 46.99 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -648,14 +648,14 @@
     (path "/8023a5f0-baa5-44d7-a46e-ace06eb98060"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
+    (path "/86e9f412-5543-43e1-bba0-b970b0e0f286"
+      (reference "U1") (unit 1) (value "SeeeduinoXIAO") (footprint "KICAD_MYLIB:SeeedXIAO")
+    )
     (path "/0915160e-514e-4927-a996-9bf411d8fb26"
-      (reference "U1") (unit 1) (value "ADA_MAX31855") (footprint "KICAD_MYLIB:ADA_MAX31855")
+      (reference "U2") (unit 1) (value "ADA_MAX31855") (footprint "KICAD_MYLIB:ADA_MAX31855")
     )
     (path "/efff797f-80ba-43d4-82d8-1094df15cadd"
-      (reference "U2") (unit 1) (value "PinHeader_XIAO") (footprint "KICAD_MYLIB:PinHeader_XIAO")
-    )
-    (path "/86e9f412-5543-43e1-bba0-b970b0e0f286"
-      (reference "U3") (unit 1) (value "SeeeduinoXIAO") (footprint "KICAD_MYLIB:SeeedXIAO")
+      (reference "U3") (unit 1) (value "PinHeader_XIAO") (footprint "KICAD_MYLIB:PinHeader_XIAO")
     )
     (path "/c63609db-2775-4841-b251-3f58a4aac31c"
       (reference "U4") (unit 1) (value "PinHeader_XIAO") (footprint "KICAD_MYLIB:PinHeader_XIAO")
