@@ -530,7 +530,7 @@
     (property "Value" "SeeeduinoXIAO" (id 1) (at 82.0294 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "XIAO:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM" (id 2) (at 68.58 60.96 0)
+    (property "Footprint" "KICAD_MYLIB:SeeedXIAO" (id 2) (at 68.58 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 68.58 60.96 0)
@@ -655,7 +655,7 @@
       (reference "U2") (unit 1) (value "PinHeader_XIAO") (footprint "KICAD_MYLIB:PinHeader_XIAO")
     )
     (path "/86e9f412-5543-43e1-bba0-b970b0e0f286"
-      (reference "U3") (unit 1) (value "SeeeduinoXIAO") (footprint "XIAO:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM")
+      (reference "U3") (unit 1) (value "SeeeduinoXIAO") (footprint "KICAD_MYLIB:SeeedXIAO")
     )
     (path "/c63609db-2775-4841-b251-3f58a4aac31c"
       (reference "U4") (unit 1) (value "PinHeader_XIAO") (footprint "KICAD_MYLIB:PinHeader_XIAO")
