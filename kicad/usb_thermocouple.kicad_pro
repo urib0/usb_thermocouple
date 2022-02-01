@@ -363,7 +363,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "usb_thermocouple.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
